@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title h1 {
+    color: #00ffff;
+    margin-bottom: 0;
+}
+
+.title p {
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00ffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+.box h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    color: white;
+}
+
+button {
+    width: 100%;
+    background-color: #00ffff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00cccc;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.lock-image img {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #aaa;
+    font-size: 0.9em;
+}
