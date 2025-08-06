@@ -1,1 +1,1 @@
-web: gunicorn aes_app.app:app
+gunicorn aes_app.app:app
